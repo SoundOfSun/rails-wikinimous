@@ -13,3 +13,51 @@
  *= require_tree .
  *= require_self
  */
+/* Fonts and colors */
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: 'Saira', sans-serif;
+  font-size: 24px;
+}
+p#presentation {
+  color: rgb(152,74,89);
+}
+/* Task container */
+.task p {
+  color: rgb(100,100,100);
+}
+.btn {
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.btn-light {
+  color: rgb(153,153,153);
+  border: 1px solid rgb(153,153,153);
+  padding: 10px 15px;
+  border-radius: 50px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.btn-light:hover {
+  opacity: 1;
+}
+.task i {
+  font-size: 24px;
+}
+/* Footer container */
+.footer {
+  height: 70px;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: rgb(240,240,240);
+}
+ul {
+  margin-bottom: 0;
+}
+.links i {
+  font-size: 24px;
+}

@@ -2,6 +2,13 @@
 <html>
   <head>
     <title>RailsWikinimous</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Saira:300,400,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +16,30 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container text-center">
+      <h1>Welcome to the Wikiminous !</h1>
+      <p id="presentation">Touching testomonies from wookies</p>
+      <div class="articles">
+        <%= yield %>
+      </div>
+    </div>
+
+    <div class="footer text-center">
+      <ul class="list-inline links">
+        <li>
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div>
+
   </body>
 </html>
